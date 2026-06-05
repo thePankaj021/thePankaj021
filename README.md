@@ -73,10 +73,11 @@ _Dec 2025 – Mar 2026 · Hybrid_
 
 ## 📊 GitHub Stats
 
-![Pankaj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thePankaj021&show_icons=true&hide_border=true&count_private=true&theme=dark)
+![Pankaj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thePankaj021&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&text_color=ffffff&icon_color=58a6ff&title_color=58a6ff)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thePankaj021&layout=compact&hide_border=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thePankaj021&layout=compact&hide_border=true&bg_color=0d1117&text_color=ffffff&title_color=58a6ff)
 
+![GitHub Streak](https://streak-stats.demolab.com?user=thePankaj021&theme=dark&hide_border=true)
 ---
 
 ## 📬 Connect
