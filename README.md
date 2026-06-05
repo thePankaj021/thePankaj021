@@ -68,15 +68,14 @@ Building intelligent systems at the intersection of NLP, machine learning, and r
 **AI Intern — Codec Technologies India**
 _Dec 2025 – Mar 2026 · Hybrid_
 
-- *(Add 1–2 specific things you worked on — model type, tools, problem solved)*
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&count_private=true&theme=default" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&theme=default" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=thepankaj021&show_icons=true&hide_border=true&count_private=true&theme=default" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thepankaj021E&layout=compact&hide_border=true&theme=default" height="160"/>
 </p>
 
 ---
