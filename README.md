@@ -74,8 +74,11 @@ _Dec 2025 – Mar 2026 · Hybrid_
 ## 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thepankaj021&show_icons=true&hide_border=true&count_private=true&theme=default" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thepankaj021E&layout=compact&hide_border=true&theme=default" height="160"/>
+ ## 📊 GitHub Stats
+
+![Pankaj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=thePankaj021&show_icons=true&hide_border=true&count_private=true&theme=dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thePankaj021&layout=compact&hide_border=true&theme=dark)
 </p>
 
 ---
