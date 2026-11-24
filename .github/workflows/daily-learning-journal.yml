@@ -1,0 +1,65 @@
+name: Daily Learning Journal
+
+on:
+  schedule:
+    # 9:10 PM India Standard Time (15:40 UTC)
+    - cron: "40 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  journal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create today's journal template
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p daily-learning
+          TODAY="$(date -u +%F)"
+          FILE="daily-learning/${TODAY}.md"
+
+          if [[ -f "$FILE" ]]; then
+            echo "Journal already exists for $TODAY; nothing to commit."
+            exit 0
+          fi
+
+          cat > "$FILE" <<'EOF'
+          # Learning Log
+
+          > Fill this in with work you actually completed. This file is a template, not proof of completed study.
+
+          ## What I studied
+          -
+
+          ## What I practised
+          -
+
+          ## What I built or improved
+          -
+
+          ## Evidence
+          - Link to code, notes, issue, or pull request:
+
+          ## Next step
+          -
+          EOF
+
+      - name: Commit journal if it is new
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily-learning/
+          if git diff --cached --quiet; then
+            echo "No new journal file to commit."
+            exit 0
+          fi
+          git commit -m "docs: add daily learning journal"
+          git push
